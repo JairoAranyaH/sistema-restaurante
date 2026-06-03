@@ -11,9 +11,5 @@ import lombok.*;
 @AllArgsConstructor
 public class Cliente extends Persona {
 
-    @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long id;
-
     private String documento;
 }
