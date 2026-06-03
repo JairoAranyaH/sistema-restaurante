@@ -1,0 +1,20 @@
+# IntelliJ
+.idea/
+*.iml
+
+# Maven
+target/
+
+# Logs
+*.log
+
+# Variables de entorno
+.env
+
+# Frontend / Node
+node_modules/
+dist/
+
+# Windows / Mac
+.DS_Store
+Thumbs.db
