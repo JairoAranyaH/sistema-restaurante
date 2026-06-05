@@ -12,7 +12,7 @@ public abstract class Persona {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    protected Long Id;
+    protected Long id;
     protected String nombre;
     protected String apellido;
     protected String telefono;
