@@ -2,8 +2,6 @@ package com.restaurante.entity;
 
 import jakarta.persistence.*;
 import lombok.*;
-
-import javax.print.attribute.standard.MediaSize;
 import java.time.LocalDateTime;
 
 @Entity

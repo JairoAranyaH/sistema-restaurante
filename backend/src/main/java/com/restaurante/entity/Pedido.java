@@ -26,6 +26,10 @@ public class Pedido {
     private Mesa mesa;
 
     @ManyToOne
+    @JoinColumn(name = "cliente_id")
+    private Cliente cliente;
+
+    @ManyToOne
     @JoinColumn(name = "empleado_id")
     private Empleado empleado;
 

@@ -2,7 +2,6 @@ package com.restaurante.entity;
 
 import jakarta.persistence.*;
 import lombok.*;
-import lombok.extern.java.Log;
 
 @Entity
 @Table(name = "detalle_pedidos")
@@ -12,7 +11,7 @@ public class DetallePedido {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Log id;
+    private Long id;
 
     @ManyToOne
     @JoinColumn(name = "pedido_id")
